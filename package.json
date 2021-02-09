@@ -1,0 +1,26 @@
+{
+  "name": "api-explorer",
+  "version": "1.0.0",
+  "description": "for exploring api testing systems and techniques",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "mocha": "mocha --require @babel/register",
+    "jest": "jest"
+  },
+  "author": "jonyet",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.12.15",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "axios": "^0.21.1",
+    "jest": "^26.6.3",
+    "mocha": "^8.2.1",
+    "superagent": "^6.1.0",
+    "supertest": "^6.1.3"
+  }
+}
