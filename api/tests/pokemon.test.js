@@ -1,4 +1,4 @@
-import Posts from './Pokemon'
+import Posts from '../Pokemon'
 
 let path
 
